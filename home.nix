@@ -62,14 +62,30 @@
   # environment.
   home.packages = with pkgs; [
     bat
+    clang-tools
     fd
+    gnumake
     just
+    libgcc
     neovim
     nerd-fonts._0xproto
     ripgrep
+    sublime4
     starship
-    vlc
+    xclip
   ];
+
+  # allow unfree packages (for sublime)
+  # allow openssl 1.1 (for sublime)
+  nixpkgs = {
+    config = {
+      allowUnfree = true;
+      allowUnfreePredicate = (_: true);
+      permittedInsecurePackages = [
+        "openssl-1.1.1w"
+      ];
+    };
+  };
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
   # plain files is through 'home.file'.
