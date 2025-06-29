@@ -64,6 +64,7 @@
     bat
     clang-tools
     fd
+    gcc
     gnumake
     just
     libgcc
@@ -119,7 +120,7 @@
   #  /etc/profiles/per-user/philetus/etc/profile.d/hm-session-vars.sh
   #
   home.sessionVariables = {
-    # EDITOR = "emacs";
+    EDITOR = "subl";
   };
 
   home.sessionPath = [
