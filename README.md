@@ -1,11 +1,14 @@
-# howto nix on fedora sway atomic
+# how to nix on fedora sway atomic
 
 ## steps
 
-### make sway atomic install media
+### make sway atomic install media & install
 
-* follow instructions here
+* acquire computer
+* acquire install media (for example usb drive >= 16gb)
+* follow instructions here to install fedora sway atomic
     - https://fedoraproject.org/atomic-desktops/sway/download
+* boot into system
 
 
 ### allow transient root in rpm-ostree

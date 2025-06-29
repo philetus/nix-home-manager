@@ -66,13 +66,20 @@
     fd
     gcc
     gnumake
+    go
     just
     libgcc
+    luajit
+    luajitPackages.luarocks
     neovim
     nerd-fonts._0xproto
+    nodejs_24
+    python313
+    python313Packages.pip
     ripgrep
     sublime4
     starship
+    tree-sitter
     xclip
   ];
 
