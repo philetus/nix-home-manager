@@ -62,7 +62,9 @@
   # environment.
   home.packages = with pkgs; [
     bat
+    cargo
     clang-tools
+    clippy
     fd
     gcc
     gnumake
@@ -70,6 +72,7 @@
     just
     libgcc
     lua5_1
+    lua51Packages.jsregexp
     lua51Packages.luarocks
     neovim
     nerd-fonts._0xproto
@@ -77,10 +80,12 @@
     python313
     python313Packages.pip
     ripgrep
+    rustc
+    rust-analyzer
     sublime4
     starship
     tree-sitter
-    vimPlugins.blink-cmp
+    vimPlugins.blink-cmp-git
     xclip
   ];
 
