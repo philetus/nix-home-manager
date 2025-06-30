@@ -77,6 +77,12 @@ $ home-manager switch
 * reboot system
 
 
+### setup neovim
+
+* for example with nvim kickstart
+    - https://github.com/nvim-lua/kickstart.nvim
+
+
 # references
 
 * https://fedoraproject.org/atomic-desktops/sway/
