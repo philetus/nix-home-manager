@@ -69,8 +69,8 @@
     go
     just
     libgcc
-    luajit
-    luajitPackages.luarocks
+    lua5_1
+    lua51Packages.luarocks
     neovim
     nerd-fonts._0xproto
     nodejs_24
@@ -80,6 +80,7 @@
     sublime4
     starship
     tree-sitter
+    vimPlugins.blink-cmp
     xclip
   ];
 
